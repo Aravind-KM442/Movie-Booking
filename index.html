@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Movie Ticket Booking System</h2>
+
+<form action="book.php" method="post">
+
+    <label>Your Name</label>
+    <input type="text" name="name" required>
+
+    <label>Source</label>
+    <input type="text" name="source" required>
+
+    <label>Destination</label>
+    <input type="text" name="destination" required>
+
+    <label>Movie Name</label>
+    <input type="text" name="movie" required>
+
+    <label>Number of Seats</label>
+    <input type="number" name="seats" min="1" required>
+
+    <button type="submit">Book Ticket</button>
+
+</form>
+
+</body>
+</html>
